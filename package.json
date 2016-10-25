@@ -1,0 +1,40 @@
+{
+  "name": "fctx-font-test",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {
+    "pebble-fctx": "^1.6.1"
+  },
+  "pebble": {
+    "displayName": "fctx-font-test",
+    "uuid": "d7e51c54-ddda-4513-9964-1c696f015092",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "raw",
+          "name": "TEST_FFONT",
+          "file": "PinyonScript.ffont"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "pebble-fctx-compiler": "^1.2.0"
+  }
+}
